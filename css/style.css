@@ -1,0 +1,19 @@
+/*=======UNIVERSALS=======*/
+
+html, body {
+  height: 100%;
+  width: 100%;
+  background-color: #cc996a;
+  /*use for sidebar #546E72;*/
+}
+
+/*=======HEADER=======*/
+header {
+  border-bottom: 1px solid #000;
+
+}
+
+.nav-tabs {
+  border-bottom: none;
+  margin-top: 17px;
+}
