@@ -1,19 +1,40 @@
+@import url('https://fonts.googleapis.com/css?family=Questrial');
+
 /*=======UNIVERSALS=======*/
 
 html, body {
   height: 100%;
   width: 100%;
-  background-color: #f9bc86;
+  background-color: #d8d6d6;
   /*use for sidebar #546E72;*/
 }
 
 /*=======HEADER=======*/
 header {
-  border-bottom: 1px solid #000;
+  border-bottom: 1px solid #fff;
 
+}
+
+.logo {
+  font-family: 'Questrial', sans-serif;
+  position: relative;
+  top: 30px;
+  left: 17px;
+  margin-top: -15px;
 }
 
 .nav-tabs {
   border-bottom: none;
   margin-top: 17px;
+}
+
+.nav-tabs>li>a {
+  color: #fff;
+  font-family: 'Questrial', sans-serif;
+  font-size: 17px;
+}
+
+.nav-tabs>li>a:hover{
+  border-bottom: 1px solid #000;
+  color: #000;
 }
