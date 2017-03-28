@@ -11,14 +11,14 @@ html, body {
 
 /*=======HEADER=======*/
 header {
-  border-bottom: 1px solid #fff;
+  border-bottom: 2px solid #fff;
 
 }
 
 .logo {
   font-family: 'Questrial', sans-serif;
   position: relative;
-  top: 30px;
+  top: 13px;
   left: 17px;
   margin-top: -15px;
 }
@@ -37,4 +37,25 @@ header {
 .nav-tabs>li>a:hover{
   border-bottom: 1px solid #000;
   color: #000;
+}
+
+/*========SIDEBAR========*/
+
+.sidebar {
+  height: 100%;
+  width: 35%;
+  overflow: scroll;
+  border-left: 2px solid #fff;
+  font-family: 'Questrial', sans-serif;
+}
+
+.main-title {
+  width: 36%;
+  border-bottom: 1px solid #000;
+  text-align: center;
+}
+
+.gallery-img {
+  height: 100px;
+  width: 100px;
 }
