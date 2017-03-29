@@ -9,6 +9,9 @@ html, body {
   /*use for sidebar #546E72;*/
 }
 
+p {
+  font-family: 'Questrial', sans-serif;
+}
 /*=======HEADER=======*/
 header {
   border-bottom: 2px solid #fff;
@@ -44,7 +47,7 @@ header {
 .sidebar {
   height: 100%;
   width: 35%;
-  overflow: scroll;
+  overflow-x: hidden;
   border-left: 2px solid #fff;
   font-family: 'Questrial', sans-serif;
 }
@@ -56,6 +59,8 @@ header {
 }
 
 .gallery-img {
-  height: 100px;
-  width: 100px;
+  display: block;
+  text-align: center;
+  height: 410px;
+  width: 410px;
 }
