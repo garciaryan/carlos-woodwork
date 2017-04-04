@@ -63,4 +63,8 @@ header {
   text-align: center;
   height: 410px;
   width: 410px;
+  padding-bottom: 15px;
+  border-radius: 12%;
 }
+
+/*=======MAIN SECTION=======*/
