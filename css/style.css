@@ -63,8 +63,17 @@ header {
   text-align: center;
   height: 410px;
   width: 410px;
-  padding-bottom: 15px;
+  padding-bottom: 20px;
   border-radius: 12%;
 }
 
+.subtitle {
+  text-align: center;
+}
+
 /*=======MAIN SECTION=======*/
+
+.main {
+  height: 100%;
+  width: 65%;
+}
