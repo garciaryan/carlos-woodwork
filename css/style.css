@@ -53,8 +53,7 @@ header {
 }
 
 .main-title {
-  
-  border-bottom: 1px solid #000;
+  /*border-bottom: 1px solid #000;*/
   text-align: center;
 }
 
@@ -77,4 +76,5 @@ header {
   height: 100%;
   width: 65%;
   font-family: 'Questrial', sans-serif;
+  
 }
