@@ -61,8 +61,7 @@ header {
   border-bottom: 2px solid #fff;
 }
 
-.main-title {
-  /*border-bottom: 1px solid #000;*/
+.title {
   text-align: center;
 }
 
@@ -75,9 +74,6 @@ header {
   /*border: 1px solid #fff;*/
 }
 
-.subtitle {
-  text-align: center;
-}
 
 /*=======MAIN SECTION=======*/
 
@@ -111,5 +107,7 @@ header {
 /*=======FOOTER========*/
 
 footer {
-
+  position: relative;
+  background-color: #000;
+  clear: both;
 }
