@@ -16,6 +16,10 @@ p {
 img::after {
   border: 1px solid #000;
 }
+
+.right-borders {
+  border-right: 2px solid #fff;
+}
 /*=======HEADER=======*/
 header {
   border-bottom: 2px solid #fff;
@@ -42,7 +46,7 @@ header {
 }
 
 .nav-tabs>li>a:hover{
-  border-bottom: 2px solid #000;
+  border-bottom: 1px solid #000;
   color: #000;
 }
 
@@ -54,6 +58,7 @@ header {
   overflow-x: hidden;
   border-left: 2px solid #fff;
   font-family: 'Questrial', sans-serif;
+  border-bottom: 2px solid #fff;
 }
 
 .main-title {
@@ -94,7 +99,6 @@ header {
   position: relative;
   left: 50px;
   border: 1px solid #000;
-
 }
 
 .profile>span {
@@ -103,4 +107,9 @@ header {
   position: relative;
   left: 139px;
   font-size: 12px;
+}
+/*=======FOOTER========*/
+
+footer {
+
 }

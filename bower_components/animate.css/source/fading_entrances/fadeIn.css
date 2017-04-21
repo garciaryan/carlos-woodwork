@@ -10,4 +10,5 @@
 
 .fadeIn {
   animation-name: fadeIn;
+  animation-duration: 300ms;
 }
