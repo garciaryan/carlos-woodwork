@@ -12,6 +12,10 @@ html, body {
 p {
   font-family: 'Questrial', sans-serif;
 }
+
+img::after {
+  border: 1px solid #000;
+}
 /*=======HEADER=======*/
 header {
   border-bottom: 2px solid #fff;
@@ -38,7 +42,7 @@ header {
 }
 
 .nav-tabs>li>a:hover{
-  border-bottom: 1px solid #000;
+  border-bottom: 2px solid #000;
   color: #000;
 }
 

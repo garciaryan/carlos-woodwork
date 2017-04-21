@@ -1,0 +1,21 @@
+{
+  "name": "bower.json",
+  "homepage": "https://github.com/garciaryan/carlos-woodwork",
+  "authors": [
+    "Ryan Garcia <garciaryan007@yahoo.com>"
+  ],
+  "description": "bower things",
+  "main": "animate.css",
+  "keywords": [
+    "animation"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
